@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    /* list-style-type: none; */
+}
+
+h4 {
+    font-size: 1.5em;
+    color: #c33c1a;
+    letter-spacing: .5px;
+}
+
+body {
+    background-color: #e76f51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    background-color: #fff;
+    padding: 1.5em;
+    min-height: 90vh;
+}
+
+.search-container {
+    height: 140px;
+    line-height: 36px;
+}
+
+.search-container input {
+    padding: 9px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bbb;
+    margin-right: 1.5em;
+}
+
+.search-container button {
+    padding: 9px 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #e76f51b9;
+    color: #fff;
+    font-weight: 800;
+}
+
+.footer {
+    margin-top: 1em;
+    height: 100px;
+    line-height: 32px;
+    position: relative;
+}
+
+.footer button {
+    position: absolute;
+    bottom: 0;
+}
+
+.btn {
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #e76f51b9;
+    color: #fff;
+    font-weight: 800;
+}
+
+#profile {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,23em);
+}
+
+.profile-info {
+    line-height: 29px;
+}
+
+.follow-buttons{
+    line-height: 43px;
+    width: 600px;
+}
+
+.img-fluid {
+    width: 20em;
+
+}
+
+#repos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 25em);
+    line-height: 49px;
+}
+
+.row {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+}
+
+a {
+    color: rgba(0, 0, 255, 0.628);
+    text-decoration: none;
+}
+
+i {
+    font-size: 21px;
+    color: orangered;
+    margin-right: .4em;
+}
+
+.badge {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    margin: 3px;
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+
+.list-group {
+    margin-top: 2em;
+    list-style-type: none;
+}
+
+.history-container {
+    padding: 25px 0 0 0;
+    line-height: 2em;
+}
+
+.history-container h4 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+#history-list {
+    list-style-type:circle;
+}
