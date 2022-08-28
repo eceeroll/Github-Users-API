@@ -1,6 +1,11 @@
 <h1 align="center" id="title">Github Users API</h1>
 
-<p id="description">Github API Project | JavaScript</p>
+<p id="description">Github API Project | JavaScript <br>
+With searching for a username you can reach users Github profile. <br>
+You can click user's avatar and direct to users Github profile page. <br>
+General infos about user and user's public repositories will display on the screen.  <br>
+You can click on a repository name and direct to this repository page.
+</p>
 
 <h2>🚀 Demo</h2>
 
